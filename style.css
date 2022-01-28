@@ -13,19 +13,13 @@
     align-items: center;
 }
 
-h1 {
-    font-size: 40px;
-}
-
 .border {
     border: 2px solid rgb(204, 204, 204);
     border-top: none;
 }
 
-#nav-container {
-    min-height: 70px;
-    background-color: black;
-    padding: 20px 0;
+h1 {
+    font-size: 40px;
 }
 
 p {
@@ -36,6 +30,12 @@ p {
     width: 70%;
     margin: 0 auto;
     gap: 30px;
+}
+
+#nav-container {
+    min-height: 70px;
+    background-color: black;
+    padding: 20px 0;
 }
 
 #nav-content {
@@ -53,11 +53,6 @@ p {
     flex: 2;
 }
 
-#connections-container{
-    min-height: 700px;
-    flex: 1;
-}
-
 #user-card{
     min-height: 250px;
     margin-bottom: 30px;
@@ -73,7 +68,6 @@ p {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    border: 2px solid rgb(204, 204, 204);
     background-color: white;
     display: flex;
     align-items: center;
@@ -81,44 +75,6 @@ p {
     position: absolute;
     top: 50px;
     left: 30px;
-}
-
-.connections-circles {
-    width: 50px;
-    border-radius: 50%;
-}
-
-.accept-close {
-    width: 40px;
-}
-
-.connections {
-    margin-bottom: 15px;
-}
-
-#requests-circle {
-    height: 30px;
-    width: 30px;
-    background-color: rgb(204, 204, 204);
-    color: black;
-    border-radius: 50%;
-    position: absolute;
-    top: 15px;
-    left: 20px;
-    text-align: center;
-}
-
-#connections-circle {
-    height: 40px;
-    width: 80px;
-    line-height: 40px;
-    background-color: rgb(204, 204, 204);
-    color: black;
-    border-radius: 50%;
-    position: absolute;
-    top: 10px;
-    left: 20px;
-    text-align: center;
 }
 
 #user-card-body {
@@ -145,6 +101,51 @@ p {
     min-height: 150px;
     padding: 15px 30px;
 }
+
+#connections-container{
+    min-height: 700px;
+    flex: 1;
+}
+
+.connections-circles {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.accept-close {
+    width: 40px;
+}
+
+.connections {
+    margin-bottom: 15px;
+}
+
+#requests-circle, #connections-circle {
+    background-color: rgb(204, 204, 204);
+    color: black;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+}
+
+#requests-circle {
+    height: 30px;
+    width: 30px;
+    top: 15px;
+    left: 20px;
+}
+
+#connections-circle {
+    height: 40px;
+    width: 80px;
+    line-height: 40px;
+    top: 10px;
+    left: 20px;
+}
+
+
+
+
 
 #requests {
     min-height: 200px;
@@ -200,7 +201,6 @@ button {
 }
 
 
-
 #jane {
     width: 90px;
     border-radius: 50%;
@@ -230,8 +230,6 @@ a {
 #dates {
     color: rgb(102, 102, 102);
 }
-
-
 
 .request-info {
     justify-content: space-between;
